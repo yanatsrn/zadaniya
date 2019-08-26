@@ -32,8 +32,10 @@ public class Main {
 		}
 		System.out.println(" dop1");
 		for (int y = 1; y <= 100; y++) {
-			if (y % 3 == 0 || y % 5 == 0 && y % 15 !=0) {
-				System.out.println(y);
+			if (y % 3 == 0 || y % 5 == 0 ) {
+				if(y % 15 !=0){
+				
+				System.out.println(y);}
 			}
 
 
